@@ -1,0 +1,21 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: none;
+  font-weight: normal;
+
+      background-color: none;
+      background-image: url("batwallpaper.jpg");
+
+      margin: 20;
+      padding: 10%, 20%, 30%, 40%;
+      color:white;
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
